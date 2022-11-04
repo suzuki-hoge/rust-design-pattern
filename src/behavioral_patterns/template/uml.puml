@@ -1,0 +1,10 @@
+@startuml
+
+rectangle TextTemplate
+rectangle SimpleText
+rectangle HTML
+
+SimpleText -u-|> TextTemplate
+HTML -u-|> TextTemplate
+
+@enduml
