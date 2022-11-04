@@ -1,0 +1,12 @@
+@startuml
+
+rectangle Report
+rectangle Noticer
+rectangle Mail
+rectangle SMS
+
+Report -r-> Noticer
+Mail -u-|> Noticer
+SMS -u-|> Noticer
+
+@enduml
