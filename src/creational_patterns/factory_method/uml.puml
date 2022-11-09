@@ -1,0 +1,13 @@
+@startuml
+
+rectangle Processor
+rectangle Supplier
+rectangle SagawaProcessor
+rectangle SagawaSupplier
+
+Processor -r-> Supplier
+SagawaProcessor -u-|> Processor
+SagawaSupplier -u-|> Supplier
+SagawaProcessor -r-> SagawaSupplier
+
+@enduml

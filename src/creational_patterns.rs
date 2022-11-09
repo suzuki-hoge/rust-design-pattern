@@ -1,0 +1,1 @@
+mod factory_method;
