@@ -1,0 +1,12 @@
+@startuml
+
+rectangle Calculator
+rectangle Command
+rectangle AddCommand
+rectangle NegateCommand
+
+Calculator -r->"*" Command
+AddCommand -u-|> Command
+NegateCommand -u-|> Command
+
+@enduml
