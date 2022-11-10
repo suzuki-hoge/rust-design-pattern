@@ -1,1 +1,1 @@
-mod factory_method;
+pub mod factory_method;
